@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+p, a{
+    font-size: 16px;
+    font-weight: 500;
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+@include breakpoint(tablet){
+    h1{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    p, a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+@include breakpoint(desktop){
+    h1{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    p, a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+@include breakpoint(largedesktop){
+    h1{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    p, a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+}

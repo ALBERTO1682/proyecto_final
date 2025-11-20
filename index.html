@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+
+  </head>
+  <script type="module" src="/src/main.js"></script>
+  <body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">Los Demonios Barber</div>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul class="nav">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#reserva">Reservas</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li> 
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <!-- HERO -->
+      <section id="inicio" class="hero">
+          <div class="hero-text">
+              <h1>Cortes de Caballero</h1>
+              <p>Estilo moderno y clásico para el hombre actual.</p>
+          </div>
+      </section>
+      
+      <div class="reserva">
+        <a href="tel:+34123456789">Reserva ya</a>
+      </div>
+      <section id="galeria" class="galeria">
+        <h2>Galería</h2>
+        <div class="galeria-grid">
+            <img src="src/img/corte_1.png" alt="">
+            <img src="src/img/corte_2.png" alt="">
+            <img src="src/img/corte_3.png" alt="">
+            <img src="src/img/corte_4.png" alt="">
+            <img src="src/img/corte_5.png" alt="">
+            <img src="src/img/corte_6.png" alt="">
+        </div>
+    </section>
+
+      <!-- SERVICIOS -->
+      <section id="servicios" class="servicios">
+          <h2>Servicios</h2>
+          <div class="servicios-grid">
+              <div class="servicio">
+                  <h3>Corte</h3>
+                  <p>Corte clásico o moderno con acabado profesional.</p>
+              </div>
+              <div class="servicio">
+                  <h3>Barba</h3>
+                  <p>Arreglo de barba y afeitado tradicional.</p>
+              </div>
+              <div class="servicio">
+                  <h3>Corte + Barba</h3>
+                  <p>Pack completo de estilo y cuidado masculino.</p>
+              </div>
+          </div>
+      </section>
+
+      
+
+      <!-- CONTACTO -->
+      <section id="contacto" class="contact">
+          <h2>Contacto</h2>
+          
+          <div class="contacto-info">
+              <p><strong>Dirección:</strong> Calle Ejemplo 123</p>
+              <p><strong>Horario:</strong> L–S 10:00–20:00</p>
+              <p><strong>Teléfono:</strong> +34 600 000 000</p>
+          </div>
+
+          <form class="formulario">
+              <input type="text" placeholder="Nombre">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Mensaje"></textarea>
+              <button type="submit">Enviar</button>
+          </form>
+      </section>
+    </main>
+
+    
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 Barbería • Instagram</p>
+    </footer>
+
+</body>
+  
+</html>
